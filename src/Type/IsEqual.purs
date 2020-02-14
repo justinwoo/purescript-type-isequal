@@ -1,6 +1,6 @@
 module Type.IsEqual where
 
-import Type.Data.Boolean (False, True, kind Boolean)
+import Type.Data.Boolean (False, True)
 
 -- | This type class tells whether or not two types are equal with a Boolean-kinded result.
 -- | This class is only useful for type-level programming.
